@@ -16,10 +16,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
-/* ========================================
-   GENERAL
-======================================== */
+   /* GENERAL */
 
 a {
     text-decoration: none;
@@ -32,9 +29,8 @@ a {
 }
 
 
-/* ========================================
-   NAVBAR
-======================================== */
+   /* NAVBAR */
+
 
 .navbar {
     height: 80px;
@@ -53,7 +49,7 @@ a {
 
 /* Logo */
 
-.navbar-brand {
+.name {
     font-size: 24px;
     font-weight: 600;
     color: #ffffff;
@@ -80,9 +76,9 @@ a {
 }
 
 
-/* Theme button */
+/* Theme button
 
-.theme-button {
+.theme {
     width: 45px;
     height: 45px;
 
@@ -91,40 +87,38 @@ a {
 
     background-color: transparent;
     color: #ffffff;
-
     cursor: pointer;
-
     transition: 0.3s ease;
 }
 
 
-.theme-button:hover {
+.theme:hover {
     background-color: #1a1a1a;
 }
+*/
 
 
-/* ========================================
-   HERO SECTION
-======================================== */
+/* front page */
 
-.hero {
+.front-pg {
+    /* to have minimum height atleast of view height */
     min-height: calc(100vh - 80px);
-
     display: flex;
     align-items: center;
 
-    padding: 80px 0;
+    padding: 80px 0;    
 }
 
 
-.hero-greeting {
+.fp-greeting {
     color: #888;
     font-size: 20px;
     margin-bottom: 15px;
 }
 
 
-.hero-name {
+.fp-name {
+    /* dont go below or above this and in middle prefered one */
     font-size: clamp(55px, 7vw, 90px);
     font-weight: 700;
 
@@ -136,7 +130,7 @@ a {
 }
 
 
-.hero-title {
+.fp-title {
     font-size: 28px;
     font-weight: 500;
 
@@ -146,7 +140,7 @@ a {
 }
 
 
-.hero-description {
+.fp-description {
     max-width: 550px;
 
     color: #777;
@@ -157,12 +151,9 @@ a {
     margin-bottom: 35px;
 }
 
+    /* ------------- fp-btns ------*/
 
-/* ========================================
-   HERO BUTTONS
-======================================== */
-
-.hero-buttons {
+.fp-buttons {
     display: flex;
     gap: 20px;
 
@@ -170,7 +161,7 @@ a {
 }
 
 
-.hero-buttons .btn {
+.fp-buttons .btn {
     padding: 14px 25px;
 
     border-radius: 8px;
@@ -187,30 +178,30 @@ a {
 }
 
 
-.hero-buttons .btn:first-child {
+.fp-buttons .btn:first-child {
     background-color: #eeeeee;
     color: #111;
 }
 
 
-.hero-buttons .btn:hover {
+.fp-buttons .btn:hover {
     transform: translateY(-3px);
 }
 
 
-.hero-buttons .btn:first-child:hover {
+.fp-buttons .btn:first-child:hover {
     background-color: #ffffff;
 }
 
 
-.hero-buttons i {
+.fp-buttons i {
     margin-left: 8px;
 }
 
 
-/* ========================================
-   SOCIAL LINKS
-======================================== */
+
+   /*---------- SOCIAL LINKS--------- */
+
 
 .social-links {
     display: flex;
@@ -243,9 +234,8 @@ a {
 }
 
 
-/* ========================================
-   HERO IMAGE
-======================================== */
+
+   /*------IMAGE--------- */
 
 .hero-image {
     display: flex;
@@ -276,11 +266,10 @@ a {
 }
 
 
-/* ========================================
-   SECTION GENERAL
-======================================== */
+   /* ---------SECTION GENERAL-------- */
 
-section:not(.hero) {
+
+section:not(.front-pg) {
     padding: 120px 0;
 }
 
@@ -312,9 +301,8 @@ section:not(.hero) {
 }
 
 
-/* ========================================
-   ABOUT
-======================================== */
+          /* ------ about  ------- */
+
 
 .about {
     border-top: 1px solid #181818;
@@ -332,9 +320,8 @@ section:not(.hero) {
 }
 
 
-/* ========================================
-   SKILLS
-======================================== */
+
+           /* ---------skills--------- */
 
 .skills {
     border-top: 1px solid #181818;
@@ -359,7 +346,7 @@ section:not(.hero) {
 .skill-card:hover {
     transform: translateY(-5px);
 
-    border-color: #444;
+    border-color: #505050;
 
     background-color: #151515;
 }
@@ -388,9 +375,7 @@ section:not(.hero) {
 }
 
 
-/* ========================================
-   PROJECTS
-======================================== */
+        /* ------- projects ------ */
 
 .projects {
     border-top: 1px solid #181818;
@@ -415,7 +400,7 @@ section:not(.hero) {
 .project-card:hover {
     transform: translateY(-7px);
 
-    border-color: #444;
+    border-color: #505050;
 }
 
 
@@ -489,9 +474,7 @@ section:not(.hero) {
 }
 
 
-/* ========================================
-   EXPERIENCE
-======================================== */
+            /* -----------experience--------- */
 
 .experience {
     border-top: 1px solid #181818;
@@ -546,9 +529,7 @@ section:not(.hero) {
 }
 
 
-/* ========================================
-   CONTACT
-======================================== */
+/* ---------contact-------- */
 
 .contact {
     border-top: 1px solid #181818;
@@ -601,9 +582,7 @@ section:not(.hero) {
 }
 
 
-/* ========================================
-   FOOTER
-======================================== */
+        /* --------footer----- */
 
 footer {
     padding: 30px 0;
@@ -623,9 +602,9 @@ footer p {
 }
 
 
-/* ========================================
-   RESPONSIVE DESIGN
-======================================== */
+
+   /* RESPONSIVE DESIGN using meadia */
+
 
 @media (max-width: 991px) {
 
@@ -634,18 +613,18 @@ footer p {
     }
 
 
-    .hero {
+    .front-pg {
         text-align: center;
     }
 
 
-    .hero-description {
+    .fp-description {
         margin-left: auto;
         margin-right: auto;
     }
 
 
-    .hero-buttons {
+    .fp-buttons {
         justify-content: center;
     }
 
@@ -689,12 +668,12 @@ footer p {
     }
 
 
-    .hero-name {
+    .fp-name {
         font-size: 55px;
     }
 
 
-    .hero-title {
+    .fp-title {
         font-size: 22px;
     }
 
@@ -714,24 +693,24 @@ footer p {
 
 @media (max-width: 576px) {
 
-    .hero {
+    .front-pg {
         padding: 60px 0;
     }
 
 
-    .hero-name {
+    .fp-name {
         font-size: 45px;
 
         letter-spacing: -2px;
     }
 
 
-    .hero-buttons {
+    .fp-buttons {
         flex-direction: column;
     }
 
 
-    .hero-buttons .btn {
+    .fp-buttons .btn {
         width: 100%;
     }
 
@@ -742,7 +721,7 @@ footer p {
     }
 
 
-    section:not(.hero) {
+    section:not(.front-pg) {
         padding: 80px 0;
     }
 
