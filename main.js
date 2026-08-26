@@ -2,13 +2,13 @@
 // THEME BUTTON
 // ========================================
 
-let themeButton = document.getElementById("themeButton");
+let themeButton = document.getElementById("theme-btn");
 
-themeButton.addEventListener("click", function () {
-
-    document.body.classList.toggle("light-mode");
-
-});
+if (themeButton) {
+    themeButton.addEventListener("click", function () {
+        document.body.classList.toggle("light-mode");
+    });
+}
 
 
 
