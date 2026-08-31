@@ -65,7 +65,7 @@ a {
 
 
 .nav-links a {
-    color: #888;
+    color: #aeaeae;
     font-size: 16px;
     transition: color 0.3s ease;
 }
@@ -134,7 +134,7 @@ a {
     font-size: 28px;
     font-weight: 500;
 
-    color: #999;
+    color: #b3b1b1;
 
     margin-bottom: 25px;
 }
@@ -143,7 +143,7 @@ a {
 .fp-description {
     max-width: 550px;
 
-    color: #777;
+    color: #aaa9a9;
 
     font-size: 18px;
     line-height: 1.8;

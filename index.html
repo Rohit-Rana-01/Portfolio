@@ -90,17 +90,9 @@
                     <!-- social links -->
                     <div class="social-links">
 
-                        <a href="#" >
-                            <i class="bi bi-github"></i>
-                        </a>
-
-                        <a href="#">
-                            <i class="bi bi-linkedin"></i>
-                        </a>
-
-                        <a href="#" >
-                            <i class="bi bi-instagram"></i>
-                        </a>
+                        <a href="https://github.com/Rohit-Rana-01" target="_blank"> <i class="bi bi-github"></i> </a>
+                        <a href="https://www.linkedin.com/in/rohit-rana-b746b9353" target="_blank"> <i class="bi bi-linkedin"></i> </a>
+                        <!-- <a href="#" > <i class="bi bi-instagram"></i> </a> -->
 
                     </div>
 
@@ -292,10 +284,28 @@
 
                 </div>
 
+                <div class="col-md-4">
+
+                    <div class="skill-card">
+
+                        <h3>LeetCode</h3>
+                        <p>55 Problems Solved</p>
+                        <a href="YOUR_LEETCODE_PROFILE_LINK" target="_blank" class="leetcode-link" style=" font-size: large;">
+                        View Profile <i class="bi bi-arrow-up-right"></i> </a>
+                    </div>
+
+                </div>
+
+                <div class="skill-card leetcode-card">
+
+            
+            </div>
+
             </div>
 
         </div>
 
+        
     </section>
 
 
@@ -439,8 +449,6 @@
 
     </section>
 
-
-
          <!-- EXPERIENCE SECTION -->
 
     <section id="experience" class="experience">
@@ -448,70 +456,45 @@
         <div class="container">
 
             <div class="section-heading">
-
                 <p>My Journey</p>
-
-                <h2>
-                    Experience & Education
-                </h2>
-
+                <h2> Experience & Education </h2>
             </div>
-
 
             <div class="timeline">
 
                 <div class="timeline-item">
 
-                    <span>
-                        2026
-                    </span>
+                    <span> 2026 </span>
 
-                    <h3>
-                        B.Tech Computer Science
-                    </h3>
+                    <h3>B.Tech Computer Science </h3>
 
-                    <h4>
-                        Uttarakhand Institute of Technology
-                    </h4>
+                    <h4>Uttarakhand Institute of Technology</h4>
 
-                    <p>
-                        Studying Computer Science and developing
+                    <p>Studying Computer Science and developing
                         skills in programming, web development,
-                        data structures and software development.
-                    </p>
+                        data structures and software development.</p>
 
                 </div>
 
 
-                <div class="timeline-item">
+                <!-- <div class="timeline-item">
 
-                    <span>
-                        2026
-                    </span>
+                    <span> 2026 </span>
 
-                    <h3>
-                        Summer Internship
-                    </h3>
+                    <h3>Summer Internship</h3>
 
-                    <h4>
-                        Data Science with AI
-                    </h4>
+                    <h4>Data Science with AI</h4>
 
-                    <p>
-                        Worked on a customer churn prediction
+                    <p>Worked on a customer churn prediction
                         project using Python, machine learning
-                        and Streamlit.
-                    </p>
-
-                </div>
+                        and Streamlite</p>
+                </div> -->
 
             </div>
 
         </div>
 
     </section>
-
-
 
          <!-- CONTACT SECTION -->
 
@@ -522,14 +505,8 @@
 
             <div class="section-heading">
 
-                <p>Get In Touch</p>
-
-                <h2>
-                    Let's work together
-                </h2>
-
+                <h2>Let's work together </h2>
             </div>
-
 
             <div class="row">
 
@@ -537,51 +514,26 @@
 
                     <form id="contactForm">
 
+                        <div class="mb-3">
+
+                            <label for="name"> Name </label>
+
+                            <input  type="text" id="name" name="name" placeholder="Your name" >
+                        </div>
 
                         <div class="mb-3">
 
-                            <label for="name">
-                                Name
-                            </label>
+                            <label for="email"> Email </label>
 
-                            <input 
-                                type="text"
-                                id="name"
-                                name="name"
-                                placeholder="Your name"
-                            >
+                            <input  type="email" id="email" name="email" placeholder="Your email" >
 
                         </div>
 
-
                         <div class="mb-3">
 
-                            <label for="email">
-                                Email
-                            </label>
+                            <label for="message"> Message </label>
 
-                            <input 
-                                type="email"
-                                id="email"
-                                name="email"
-                                placeholder="Your email"
-                            >
-
-                        </div>
-
-
-                        <div class="mb-3">
-
-                            <label for="message">
-                                Message
-                            </label>
-
-                            <textarea 
-                                id="message"
-                                name="message"
-                                rows="5"
-                                placeholder="Your message"
-                            ></textarea>
+                            <textarea  id="message" name="message" rows="5" placeholder="Your message"></textarea>
 
                         </div>
 
@@ -605,11 +557,7 @@
 
     </section>
 
-
-
-    <!-- =========================
-         FOOTER
-    ========================== -->
+    <!-- footer -->
 
     <footer>
 
@@ -622,8 +570,6 @@
         </div>
 
     </footer>
-
-
 
     <!-- Bootstrap JavaScript -->
     <script 

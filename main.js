@@ -1,6 +1,6 @@
-// ========================================
+
 // THEME BUTTON
-// ========================================
+
 
 let themeButton = document.getElementById("theme-btn");
 
