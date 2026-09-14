@@ -65,7 +65,7 @@ a {
 
 
 .nav-links a {
-    color: #aeaeae;
+    color: #d5d5d5;
     font-size: 16px;
     transition: color 0.3s ease;
 }
@@ -76,13 +76,13 @@ a {
 }
 
 
-/* Theme button
+/* Theme button */
 
 .theme {
     width: 45px;
     height: 45px;
 
-    border: 1px solid #2c2c2c;
+    border: 1px solid #909090;
     border-radius: 10px;
 
     background-color: transparent;
@@ -95,7 +95,7 @@ a {
 .theme:hover {
     background-color: #1a1a1a;
 }
-*/
+
 
 
 /* front page */
@@ -111,7 +111,7 @@ a {
 
 
 .fp-greeting {
-    color: #888;
+    color: #d5d5d5;
     font-size: 20px;
     margin-bottom: 15px;
 }
@@ -124,7 +124,7 @@ a {
 
     letter-spacing: -3px;
 
-    color: #ffffff;
+    color: #e8f8fd;
 
     margin-bottom: 20px;
 }
@@ -134,7 +134,7 @@ a {
     font-size: 28px;
     font-weight: 500;
 
-    color: #b3b1b1;
+    color: #d5d5d5;
 
     margin-bottom: 25px;
 }
@@ -143,7 +143,7 @@ a {
 .fp-description {
     max-width: 550px;
 
-    color: #aaa9a9;
+    color: #d5d5d5;
 
     font-size: 18px;
     line-height: 1.8;
@@ -217,10 +217,10 @@ a {
     align-items: center;
     justify-content: center;
 
-    border: 1px solid #222;
+    border: 1px solid #474646;
     border-radius: 8px;
 
-    color: #888;
+    color: #d5d5d5;
 
     transition: all 0.3s ease;
 }
@@ -587,7 +587,7 @@ section:not(.front-pg) {
 footer {
     padding: 30px 0;
 
-    border-top: 1px solid #181818;
+    border-top: 1px solid #383737;
 
     text-align: center;
 }
