@@ -111,7 +111,7 @@ a {
 
 
 .fp-greeting {
-    color: #d5d5d5;
+    color: hwb(0 84% 16%);
     font-size: 20px;
     margin-bottom: 15px;
 }
@@ -124,7 +124,7 @@ a {
 
     letter-spacing: -3px;
 
-    color: #e8f8fd;
+    color: #ffffff;
 
     margin-bottom: 20px;
 }
@@ -720,9 +720,5 @@ footer p {
         height: 240px;
     }
 
-
-    section:not(.front-pg) {
-        padding: 80px 0;
-    }
 
 }
