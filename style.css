@@ -25,7 +25,7 @@ a {
 
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
 }
 
 
@@ -118,8 +118,6 @@ a {
 
 
 .fp-name {
-    /* dont go below or above this and in middle prefered one */
-    font-size: clamp(55px, 7vw, 90px);
     font-weight: 700;
 
     letter-spacing: -3px;
